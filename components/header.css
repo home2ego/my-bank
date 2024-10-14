@@ -1,0 +1,27 @@
+#header {
+  display: flex;
+  align-items: center;
+  height: 56px;
+}
+
+#header .back {
+  background-image: url('/assets/arrow-back.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 24px;
+  width: 30px;
+}
+
+#header .page-title {
+  flex-grow: 1;
+  text-align: center;
+
+  margin: 0;
+  font-size: 1.12rem;
+  font-weight: 500;
+}
+
+#main-with-small-header {
+  padding-top: 20px;
+}

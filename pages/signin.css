@@ -1,0 +1,13 @@
+.recover-password {
+  background-image: url('/assets/lock.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 30px;
+  text-align: initial;
+}
+
+.flag-us {
+  background-image: url('/assets/austria-flag.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}

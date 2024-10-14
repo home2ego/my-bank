@@ -1,0 +1,41 @@
+.btn {
+  cursor: pointer;
+
+  font-size: 1.12rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  transition: translate 180ms, opacity 180ms ease-in-out;
+}
+
+.btn--block {
+  display: block;
+  width: 100%;
+  text-align: center;
+
+  max-width: 800px;
+  margin-inline: auto;
+
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+.btn--raised {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.btn--link {
+  color: var(--primary-color);
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  translate: 1.5px 1.5px;
+}

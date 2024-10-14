@@ -1,0 +1,26 @@
+.entry {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.entry-details {
+  flex-grow: 1;
+}
+.entry-name {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.entry-description {
+  color: var(--light-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.87rem;
+}
+
+.entry-price {
+  color: var(--dark-color);
+  font-weight: 700;
+}

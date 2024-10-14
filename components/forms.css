@@ -1,0 +1,52 @@
+.input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+
+  padding: 12px;
+  margin: 0; /* fixes iOS bug */
+  border-radius: 8px;
+  border: 1.5px solid var(--light-border-color);
+}
+
+.input-fixed-icon {
+  display: flex;
+}
+
+.input-fixed-left {
+  padding: 20px;
+  border: 1.5px solid var(--light-border-color);
+  border-right: 0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.input-fixed-left + .input {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input-search {
+  background-image: url('../assets/search.svg');
+  background-position: 8px center;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+.form-line {
+  margin-bottom: 24px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--light-text-color);
+
+  font-size: 0.88rem;
+}
+
+.form-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}

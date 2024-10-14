@@ -1,0 +1,15 @@
+#app-header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding-top: 28px;
+  padding-bottom: 40px;
+
+  position: relative; /* to position items inside using position: absolute */
+}
+
+#app-header h1 {
+  margin-top: 0;
+  font-size: 1.12rem;
+  font-weight: normal;
+  text-align: center;
+}

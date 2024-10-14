@@ -1,0 +1,16 @@
+#slider {
+  display: grid;
+  grid-template-columns: 100% 100% 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+#slider .slide {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.slide h1,
+.slide p {
+  margin-block: 10px 0;
+}
