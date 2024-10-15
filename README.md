@@ -5,4 +5,5 @@
 ## Technologies Used
 
 - **HTML**: For structuring the app’s content, ensuring proper semantic structure and accessibility.
+
 - **CSS**: For styling the user interface, providing a responsive design across devices.
