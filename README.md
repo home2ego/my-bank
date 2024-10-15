@@ -6,4 +6,3 @@
 
 - **HTML**: For structuring the app’s content, ensuring proper semantic structure and accessibility.
 - **CSS**: For styling the user interface, providing a responsive design across devices.
-- **JavaScript** (JS): For implementing a light and dark theme toggle.
