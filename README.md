@@ -1,6 +1,6 @@
 # MyBank
 
-**MyBank** is a simple, secure, and user-friendly mobile application that allows users to manage their bank accounts, check balances, and view transaction histories.
+**MyBank** is a simple, secure, and user-friendly mobile-first application that allows users to manage their bank accounts, check balances, and view transaction histories.
 
 ## Technologies Used
 
